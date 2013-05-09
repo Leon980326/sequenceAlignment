@@ -18,15 +18,15 @@ untuk keperluan pembelajaran bioinformatika, sequence alignment pada DNA, RNA at
 
 <br />
 Usage:<br />
-<p style="font-family:arial;color:red;font-size:10px;"> python generalGap.py -option -input</p>
+&#09;python generalGap.py -option -input
 <br />
 Option:<br />
-&nbsp;  -i      input two sequence in command line argument<br />
-  -g      gap value, default -1<br />
-  -gp     gap penalty, default -1<br />
-  -m      match score, default +1<br />
-  -mm     mismatch score, default -1<br />
-  -f      input file, status: disable [under construction]<br />
+  &#09;-i      input two sequence in command line argument<br />
+  &#09;-g      gap value, default -1<br />
+  &#09;-gp     gap penalty, default -1<br />
+  &#09;-m      match score, default +1<br />
+  &#09;-mm     mismatch score, default -1<br />
+  &#09;-f      input file, status: disable [under construction]<br />
 <br />
 Example: <br />
   python generalGap.py -i ACACACTA AGCACACA -g -1<br />
