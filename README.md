@@ -23,9 +23,9 @@ Usage:<br />
 Option:<br />
   &ensp;&ensp;&ensp;&ensp;-i      &ensp;&ensp;&ensp;&ensp;input two sequence in command line argument<br />
   &ensp;&ensp;&ensp;&ensp;-g      &ensp;&ensp;&ensp;&ensp;gap value, default -1<br />
-  &ensp;&ensp;&ensp;&ensp;-gp     &ensp;&ensp;&ensp;&ensp;gap penalty, default -1<br />
+  &ensp;&ensp;&ensp;&ensp;-gp     &ensp;&ensp;&ensp;gap penalty, default -1<br />
   &ensp;&ensp;&ensp;&ensp;-m      &ensp;&ensp;&ensp;&ensp;match score, default +1<br />
-  &ensp;&ensp;&ensp;&ensp;-mm     &ensp;&ensp;&ensp;&ensp;mismatch score, default -1<br />
+  &ensp;&ensp;&ensp;&ensp;-mm     &ensp;&ensp;mismatch score, default -1<br />
   &ensp;&ensp;&ensp;&ensp;-f      &ensp;&ensp;&ensp;&ensp;input file, status: disable [under construction]<br />
 <br />
 Example: <br />
