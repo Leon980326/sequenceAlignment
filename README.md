@@ -21,7 +21,7 @@ Usage:<br />
   python generalGap.py [option] [input]
 <br />
 Option:<br />
-  -i      input two sequence in command line argument<br />
+&nbsp;  -i      input two sequence in command line argument<br />
   -g      gap value, default -1<br />
   -gp     gap penalty, default -1<br />
   -m      match score, default +1<br />
