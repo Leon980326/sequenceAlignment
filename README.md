@@ -18,36 +18,36 @@ untuk keperluan pembelajaran bioinformatika, sequence alignment pada DNA, RNA at
 
 <br />
 Usage:<br />
-&ensp;python generalGap.py -option -input
+&ensp;&ensp;&ensp;&ensp;python generalGap.py -option -input
 <br />
 Option:<br />
-  -i      input two sequence in command line argument<br />
-  -g      gap value, default -1<br />
-  -gp     gap penalty, default -1<br />
-  -m      match score, default +1<br />
-  -mm     mismatch score, default -1<br />
-  -f      input file, status: disable [under construction]<br />
+  &ensp;&ensp;&ensp;&ensp;-i      &ensp;&ensp;&ensp;&ensp;input two sequence in command line argument<br />
+  &ensp;&ensp;&ensp;&ensp;-g      &ensp;&ensp;&ensp;&ensp;gap value, default -1<br />
+  &ensp;&ensp;&ensp;&ensp;-gp     &ensp;&ensp;&ensp;&ensp;gap penalty, default -1<br />
+  &ensp;&ensp;&ensp;&ensp;-m      &ensp;&ensp;&ensp;&ensp;match score, default +1<br />
+  &ensp;&ensp;&ensp;&ensp;-mm     &ensp;&ensp;&ensp;&ensp;mismatch score, default -1<br />
+  &ensp;&ensp;&ensp;&ensp;-f      &ensp;&ensp;&ensp;&ensp;input file, status: disable [under construction]<br />
 <br />
 Example: <br />
-  python generalGap.py -i ACACACTA AGCACACA -g -1<br />
+&ensp;&ensp;&ensp;&ensp;python generalGap.py -i ACACACTA AGCACACA -g -1<br />
 <br />
 Output:<br />
-  General Gap Penalty, Needleman-Wunch Algorithm<br />
-  SEQUENCE 1: ACACACTA<br />
-  SEQUENCE 2: AGCACACA<br />
-  gap           :  -1.0<br />
-  gap penalty   :  -1.0<br />
-  match score   :  1.0<br />
-  mismacth score:  -1.0<br />
-  -0.0    -1.0    -2.0    -3.0    -4.0    -5.0    -6.0    -7.0    -8.0    <br />
-  -1.0    1.0     0.0     -1.0    -2.0    -3.0    -4.0    -5.0    -6.0    <br />
-  -2.0    0.0     0.0     -1.0    -2.0    -3.0    -4.0    -5.0    -6.0    <br />
-  -3.0    -1.0    1.0     0.0     0.0     -1.0    -2.0    -3.0    -4.0    <br />
-  -4.0    -2.0    0.0     2.0     1.0     1.0     0.0     -1.0    -2.0    <br />
-  -5.0    -3.0    -1.0    1.0     3.0     2.0     2.0     1.0     0.0     <br />
-  -6.0    -4.0    -2.0    0.0     2.0     4.0     3.0     2.0     2.0     <br />
-  -7.0    -5.0    -3.0    -1.0    1.0     3.0     5.0     4.0     3.0     <br />
-  -8.0    -6.0    -4.0    -2.0    0.0     2.0     4.0     4.0     5.0     <br />
-  Sequence 1:  A _ C A C A C T A<br />
-  Sequence 2:  A G C A C A C _ A<br />
-  Score     :  5.0<br />
+  &ensp;&ensp;&ensp;&ensp;General Gap Penalty, Needleman-Wunch Algorithm<br />
+  &ensp;&ensp;&ensp;&ensp;SEQUENCE 1: ACACACTA<br />
+  &ensp;&ensp;&ensp;&ensp;SEQUENCE 2: AGCACACA<br />
+  &ensp;&ensp;&ensp;&ensp;gap           :  -1.0<br />
+  &ensp;&ensp;&ensp;&ensp;gap penalty   :  -1.0<br />
+  &ensp;&ensp;&ensp;&ensp;match score   :  1.0<br />
+  &ensp;&ensp;&ensp;&ensp;mismacth score:  -1.0<br />
+  &ensp;&ensp;&ensp;&ensp;-0.0    -1.0    -2.0    -3.0    -4.0    -5.0    -6.0    -7.0    -8.0    <br />
+  &ensp;&ensp;&ensp;&ensp;-1.0    1.0     0.0     -1.0    -2.0    -3.0    -4.0    -5.0    -6.0    <br />
+  &ensp;&ensp;&ensp;&ensp;-2.0    0.0     0.0     -1.0    -2.0    -3.0    -4.0    -5.0    -6.0    <br />
+  &ensp;&ensp;&ensp;&ensp;-3.0    -1.0    1.0     0.0     0.0     -1.0    -2.0    -3.0    -4.0    <br />
+  &ensp;&ensp;&ensp;&ensp;-4.0    -2.0    0.0     2.0     1.0     1.0     0.0     -1.0    -2.0    <br />
+  &ensp;&ensp;&ensp;&ensp;-5.0    -3.0    -1.0    1.0     3.0     2.0     2.0     1.0     0.0     <br />
+  &ensp;&ensp;&ensp;&ensp;-6.0    -4.0    -2.0    0.0     2.0     4.0     3.0     2.0     2.0     <br />
+  &ensp;&ensp;&ensp;&ensp;-7.0    -5.0    -3.0    -1.0    1.0     3.0     5.0     4.0     3.0     <br />
+  &ensp;&ensp;&ensp;&ensp;-8.0    -6.0    -4.0    -2.0    0.0     2.0     4.0     4.0     5.0     <br />
+  &ensp;&ensp;&ensp;&ensp;Sequence 1:  A _ C A C A C T A<br />
+  &ensp;&ensp;&ensp;&ensp;Sequence 2:  A G C A C A C _ A<br />
+  &ensp;&ensp;&ensp;&ensp;Score     :  5.0<br />
