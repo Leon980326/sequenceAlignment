@@ -12,9 +12,9 @@ berisi 3 algoritma dasar:
 untuk keperluan pembelajaran bioinformatika, 
 sequence alignment pada DNA, RNA atau protein lain.
 
-Usage   : 
+Usage:
   python generalGap.py [option] [input]
-Option  :   
+Option:
   -i      input two sequence in command line argument
   -g      gap value, default -1
   -gp     gap penalty, default -1
