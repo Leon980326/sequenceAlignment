@@ -18,7 +18,7 @@ untuk keperluan pembelajaran bioinformatika, sequence alignment pada DNA, RNA at
 
 <br />
 Usage:<br />
-<p style="font-family:arial;color:red;font-size:20px;">python generalGap.py [option] [input]</p>
+<p style="font-family:arial;color:red;font-size:10px;"> python generalGap.py <option> <input></p>
 <br />
 Option:<br />
 &nbsp;  -i      input two sequence in command line argument<br />
