@@ -51,3 +51,5 @@ Output:<br />
   &ensp;&ensp;&ensp;&ensp;Sequence 1:  A _ C A C A C T A<br />
   &ensp;&ensp;&ensp;&ensp;Sequence 2:  A G C A C A C _ A<br />
   &ensp;&ensp;&ensp;&ensp;Score     :  5.0<br />
+
+Untuk keperluan tugas saja.. :P
