@@ -102,7 +102,9 @@ def affine_gap():
     sequ2 = ''
     i = lseq2
     j = lseq1
-    while (i>0 or j>0):
+    ITER_MAX = 1000000
+    iteration = 0
+    while ((i>0 or j>0) and iteration < ITER_MAX):
         if (i>0 and j>0 and val[i][j] == val[i-1][j-1] + (match if seq2[i-1] == seq1[j-1] else mismatch)):
             sequ1 += seq1[j-1]
             sequ2 += seq2[i-1]
@@ -115,6 +117,8 @@ def affine_gap():
             sequ1 += seq1[j-1]
             sequ2 += '_'
             j -= 1
+        
+        iteration += 1
      
     sequ1r = ' '.join([sequ1[j] for j in range(-1, -(len(sequ1)+1), -1)])
     sequ2r = ' '.join([sequ2[j] for j in range(-1, -(len(sequ2)+1), -1)])
