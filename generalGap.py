@@ -116,8 +116,8 @@ def global_gap():
         else:
             score += mismatch
 
-    print "Sequence 1: ", sequ1r
-    print "Sequence 2: ", sequ2r
+    print "RNASEQUENCE: ", sequ1r
+    print "CONSEQUENCE: ", sequ2r
     print "Score     : ", score
 
 if __name__ == "__main__":
