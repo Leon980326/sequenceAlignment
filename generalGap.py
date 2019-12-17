@@ -53,7 +53,7 @@ def global_gap():
 
     #### print input
     print "General Gap Penalty, Needleman-Wunch Algorithm"
-    print "SEQUENCE 1:", seq1; print "SEQUENCE 2:", seq2
+    print "RNASEQUENCE:", seq1; print "CONSEQUENCE:", seq2
     print "gap           : ", gap
     print "gap penalty   : ", gapPenalty
     print "match score   : ", match
@@ -116,8 +116,8 @@ def global_gap():
         else:
             score += mismatch
 
-    print "Sequence 1: ", sequ1r
-    print "Sequence 2: ", sequ2r
+    print "RNASEQUENCE: ", sequ1r
+    print "CONSEQUENCE: ", sequ2r
     print "Score     : ", score
 
 if __name__ == "__main__":
